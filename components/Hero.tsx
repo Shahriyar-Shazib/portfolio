@@ -258,7 +258,7 @@ export default function Hero() {
               {/* Image container */}
               <div className="relative rounded-3xl overflow-hidden border border-violet-500/20 glass">
                 <Image
-                  src="/profile.png"
+                  src="/portfolio/profile.png"//src will change while deployment, so it is better to use absolute path
                   alt="Shahriyar Shazib"
                   width={320}
                   height={480}
