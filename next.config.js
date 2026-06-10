@@ -26,12 +26,14 @@
 
 
 /** @type {import('next').NextConfig} */
+const repo = "portfolio";
+
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
 
-  basePath: '/portfolio',
-  assetPrefix: '/portfolio',
+  basePath: `/${repo}`,
+  assetPrefix: `/${repo}/`,
 
   images: {
     unoptimized: true,
